@@ -86,8 +86,8 @@ body {
 }
 
 .sticker {
-    top: 480px;
-    right: 440px;
+    top: 59%;
+    right: 31%;
     position: absolute;
     z-index: 9;
     height: 0px;
