@@ -59,7 +59,7 @@ body {
 .input-box {
     position: relative;
     width: 100%;
-    max-width: 570px;
+    max-width: 575px;
     min-height: 370px;
     background: #fff;
     color: #333;
@@ -86,8 +86,8 @@ body {
 }
 
 .sticker {
-    top: 480px;
-    right: 440px;
+    top: 60%;
+    right: 30%;
     position: absolute;
     z-index: 9;
     height: 0px;
