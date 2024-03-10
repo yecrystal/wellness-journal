@@ -91,33 +91,10 @@ entriesContainer.addEventListener("click", function(e){
   }
 })
 
-// createBtn.addEventListener("click", ()=>{
-//     let inputBox = document.createElement("p");
-//     let img = document.createElement("img");
-//     inputBox.className = "input-box";
-//     inputBox.setAttribute("contenteditable", "true");
-//     img.src = "images/delete.png";
-//     entriesContainer.appendChild(inputBox).appendChild(img);
-// })
-
-// entriesContainer.addEventListener("click", function(e){
-//     if(e.target.tagName === "IMG"){
-//         e.target.parentElement.remove();
-//         updateStorage();
-//     }
-//     else if(e.target.tagName === "P"){
-//         entries = document.querySelectorAll(".input-box");
-//         entries.forEach(en => {
-//             en.onkeyup = function(){
-//                 updateStorage();
-//             }
-//         })
-//     }
-// })
-
 document.addEventListener("keydown", event =>{
     if(event.key === "Enter"){
         document.execCommand("insertLineBreak");
         event.preventDefault();
     }
 })
+

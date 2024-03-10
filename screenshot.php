@@ -13,3 +13,7 @@ if (isset($_POST['image'])) {
     fclose($screenshotJson);
 }
 ?>
+
+
+
+
